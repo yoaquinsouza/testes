@@ -9,8 +9,6 @@ export default function handler(req, res) {
   const produto = all.find(p => p.imagem.toLowerCase().includes(slug));
   if (!produto) return res.status(404).send('Produto não encontrado');
 
-  const DOMAIN = "https://testes-phi-five.vercel.app";
-
   const html = `
 <!DOCTYPE html>
 <html lang="pt-br">
