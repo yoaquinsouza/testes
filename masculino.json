@@ -1,47 +1,48 @@
 [
-  {"imagem": "img/tenis50.webp", "modelo": "Tênis New Balance 530", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis50.webp", "modelo": "Tênis New Balance 530", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis52.webp", "modelo": "Tênis New Balance 530", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis52.webp", "modelo": "Tênis New Balance 530", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis53.webp", "modelo": "Tênis New Balance 530", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis53.webp", "modelo": "Tênis New Balance 530", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis54.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis54.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis55.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis55.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis56.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis56.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis01.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis01.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis09.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis09.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis10.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis10.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis11.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis11.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis14.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis14.webp", "modelo": "Tênis New Balance 9060", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis29.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis29.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis32.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis32.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis36.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis36.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis37.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis37.webp", "modelo": "Tênis Air Max 90", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis38.webp", "modelo": "Tênis Air Max Bairelli", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis38.webp", "modelo": "Tênis Air Max Bairelli", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis40.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis40.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis42.webp", "modelo": "Tênis Air Max Bairelli", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis42.webp", "modelo": "Tênis Air Max Bairelli", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis43.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis43.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis44.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis44.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis46.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis46.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis47.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
+  {"imagem": "/img/tenis47.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"},
 
-  {"imagem": "img/tenis48.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"}
+  {"imagem": "/img/tenis48.webp", "modelo": "Tênis Air Max Plus", "tamanhos": "38 ao 43"}
 ]
+
