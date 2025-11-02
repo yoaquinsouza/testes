@@ -45,16 +45,12 @@ function renderizarProdutos(lista) {
     botao.className = 'botao-comprar';
     botao.textContent = 'Comprar';
     botao.addEventListener('click', () => {
-      // Cria o link da página de preview
-      const slug = slugFromImage(p.imagem);
-      const urlPreview = `${window.location.origin}/pv/${slug}.html`;
-
-      const mensagem = encodeURIComponent(
-        `Olá! Quero comprar o ${p.modelo} (Tamanhos: ${p.tamanhos}).' +
-        Prévia do produto: ${urlPreview}`);
-
-      const url = `https://wa.me/${numeroWhatsApp}?text=${mensagem}`;
-      window.open(url, '_blank');
+     const slug = slugFromImage(p.imagem);
+      const urlPreview = `${window.location.origin}/api/pv/${slug}`;
+      const msg = encodeURIComponent(
+        `Olá! Quero comprar o ${p.modelo} (Tamanhos: ${p.tamanhos}).%0A%0A🖼 Prévia do produto:%0A${urlPreview}`
+      );
+      window.open(`https://wa.me/${numeroWhatsApp}?text=${msg}`, '_blank');
     });
 
     card.append(img, nome, tamanhos, botao);
