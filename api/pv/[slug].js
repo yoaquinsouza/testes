@@ -12,7 +12,7 @@ export default function handler(req, res) {
 <meta charset="UTF-8">
 <meta property="og:title" content="${produto.modelo}">
 <meta property="og:description" content="Tamanhos: ${produto.tamanhos}">
-<meta property="og:image" content="${domain}${produto.imagem}">
+<meta property="og:image" content="https://testes-phi-five.vercel.app/${produto.imagem}">
 <meta property="og:type" content="website">
 <title>${produto.modelo}</title>
 </head>
