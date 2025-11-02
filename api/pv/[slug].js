@@ -16,7 +16,11 @@ export default function handler(req, res) {
 <meta property="og:type" content="website">
 <title>${produto.modelo}</title>
 </head>
-<body></body>
+<body>
+<img src="https://testes-phi-five.vercel.app/${produto.imagem}" alt="${produto.modelo}" 
+style="max-width:90%;display:block;margin:20px auto;border-radius:8px;">
+
+</body>
 </html>`;
   res.setHeader('Content-Type', 'text/html');
   res.send(html);
