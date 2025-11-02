@@ -51,9 +51,8 @@ export default function handler(req, res) {
 </head>
 <body>
 
-<h2>${produto.modelo}</h2>
-<p>Tamanhos: ${produto.tamanhos}</p>
-<img class="imgProduto" src="https://testes-phi-five.vercel.app${produto.imagem}" alt="${produto.modelo}"/>
+<meta property="og:image" content="https://testes-phi-five.vercel.app${produto.imagem}">
+
 
 </body>
 </html>
