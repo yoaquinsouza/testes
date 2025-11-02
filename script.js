@@ -50,7 +50,8 @@ function renderizarProdutos(lista) {
       const urlPreview = `${window.location.origin}/pv/${slug}.html`;
 
       const mensagem = encodeURIComponent(
-        `Olá! Quero comprar o ${p.modelo} (Tamanhos: ${p.tamanhos}). %0A%0A🖼 Prévia do produto: ${urlPreview}`
+        `Olá! Quero comprar o ${p.modelo} (Tamanhos: ${p.tamanhos}).'+
+        'Prévia do produto: ${urlPreview}`
       );
 
       const url = `https://wa.me/${numeroWhatsApp}?text=${mensagem}`;
