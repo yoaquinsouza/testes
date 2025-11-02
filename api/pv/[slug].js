@@ -15,10 +15,35 @@ export default function handler(req, res) {
 <meta property="og:image" content="https://testes-phi-five.vercel.app/${produto.imagem}">
 <meta property="og:type" content="website">
 <title>${produto.modelo}</title>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 25px;
+    background: #ffffff;
+  }
+  .imgProduto {
+    width: 100%;
+    max-width: 300px;   /* mesmo do card */
+    border-radius: 10px; /* mesmo do card */
+    display: block;
+    margin: auto;
+  }
+  h2 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  p {
+    font-size: 16px;
+    color: #444;
+  }
+</style>
+
+
 </head>
 <body>
 <img src="https://testes-phi-five.vercel.app/${produto.imagem}" alt="${produto.modelo}" 
-style="max-width:90%;display:block;margin:20px auto;border-radius:8px;">
 
 </body>
 </html>`;
