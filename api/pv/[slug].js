@@ -16,10 +16,7 @@ export default function handler(req, res) {
 
     const DOMAIN = "https://testes-phi-five.vercel.app";
 
-    // Corrige caminho da imagem automaticamente
-    const caminhoImg = produto.imagem.startsWith("/")
-      ? produto.imagem
-      : "/" + produto.imagem;
+   
 
     const html = `
 <!DOCTYPE html>
@@ -29,7 +26,7 @@ export default function handler(req, res) {
 
 <meta property="og:title" content="${produto.modelo}">
 <meta property="og:description" content="Tamanhos: ${produto.tamanhos}">
-<meta property="og:image" content="${DOMAIN}${caminhoImg}">
+<meta property="og:image" content=${DOMAIN}${produto.imagem}>
 <meta property="og:type" content="website">
 
 <title>${produto.modelo}</title>
