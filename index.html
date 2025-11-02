@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yan Calçados</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+ 
+<meta property="og:title" content="Yan Calçados - Estilo e Conforto">
+<meta property="og:description" content="Catálogo exclusivo de calçados com os melhores preços. Clique e confira!">
+<meta property="og:image" content="https://yancalcados.shop/img/yancalçados.webp">
+<meta property="og:url" content="https://yancalcados.shop.app">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Yan Calçados">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Yan Calçados - Estilo e Conforto">
+<meta name="twitter:description" content="Catálogo exclusivo de calçados com os melhores preços.">
+<meta name="twitter:image" content="https://yancalcados.shop/img/yancalçados.webp">
+
+<script>
+  const manutencao = false; // false ativa e true desativa
+  if (manutencao) {
+    window.location.href = "manutencao.html";
+  }
+</script>
+
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo-container">
+      <h1 class="logo-text">
+        <span class="principal">
+    <span class="yan">YAN</span><span class="calcados">CALÇADOS</span>
+  </span>
+  <span class="sub">O REI DOS TÊNIS</span>
+      </h1>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="titulo">Catálogo de Tênis</h2>
+
+    <div class="filtros">
+      <button class="filtro" data-categoria="todos">Todos</button>
+      <button class="filtro" data-categoria="masculino">Masculino</button>
+      <button class="filtro" data-categoria="feminino">Feminino</button>
+    </div>
+
+    <div class="container" id="produtos-conteiner"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Yan Calçados - Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
