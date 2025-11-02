@@ -48,7 +48,8 @@ function renderizarProdutos(lista) {
      const slug = slugFromImage(p.imagem);
       const urlPreview = `${window.location.origin}/api/pv/${slug}`;
       const msg = encodeURIComponent(
-        `Olá! Quero comprar o ${p.modelo} (Tamanhos: ${p.tamanhos}).%0A%0A🖼 Prévia do produto:%0A${urlPreview}`
+        `Olá! Quero comprar o ${p.modelo} (Tamanhos: ${p.tamanhos}).
+        Prévia do produto:${urlPreview}`
       );
       window.open(`https://wa.me/${numeroWhatsApp}?text=${msg}`, '_blank');
     });
