@@ -19,7 +19,7 @@ export default function handler(req, res) {
 
 <meta property="og:title" content="${produto.modelo}">
 <meta property="og:description" content="Tamanhos: ${produto.tamanhos}">
-<meta property="og:image" content="${DOMAIN}${produto.imagem}">
+<meta property="og:image" content= "https://testes-phi-five.vercel.app${produto.imagem}">
 <meta property="og:type" content="website">
 
 <title>${produto.modelo}</title>
@@ -53,7 +53,7 @@ export default function handler(req, res) {
 
 <h2>${produto.modelo}</h2>
 <p>Tamanhos: ${produto.tamanhos}</p>
-<img class="imgProduto" src="${DOMAIN}${produto.imagem}" alt="${produto.modelo}"/>
+<img class="imgProduto" src="https://testes-phi-five.vercel.app${produto.imagem}" alt="${produto.modelo}"/>
 
 </body>
 </html>
