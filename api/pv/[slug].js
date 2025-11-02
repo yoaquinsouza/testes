@@ -4,7 +4,7 @@ export default function handler(req, res) {
   const produto = all.find(p => p.imagem.toLowerCase().includes(slug));
   if (!produto) return res.status(404).send('Produto não encontrado');
 
-  const domain = `https://${req.headers.host}`;
+  const domain = `https://${https://magenta-lily-5ca6d6.netlify.app/}`;
   const html = `
 <!DOCTYPE html>
 <html lang="pt-br">
