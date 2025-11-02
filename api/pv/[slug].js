@@ -26,7 +26,7 @@ export default function handler(req, res) {
 
 <meta property="og:title" content="${produto.modelo}">
 <meta property="og:description" content="Tamanhos: ${produto.tamanhos}">
-<meta property="og:image" content=${DOMAIN}${produto.imagem}>
+<meta property="og:image" content=${DOMAIN}${produto.imagem}
 <meta property="og:type" content="website">
 
 <title>${produto.modelo}</title>
