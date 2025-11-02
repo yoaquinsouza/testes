@@ -14,9 +14,7 @@ export default function handler(req, res) {
       return res.status(200).send(`<h2>Produto não encontrado</h2><p>Slug: ${slug}</p>`);
     }
 
-    const DOMAIN = "https://testes-phi-five.vercel.app";
-
-   
+    const DOMAIN = `https://${req.headers.host}`;
 
     const html = `
 <!DOCTYPE html>
@@ -32,42 +30,41 @@ export default function handler(req, res) {
 <title>${produto.modelo}</title>
 
 <style>
+  body {
+    background: #000;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
 
-  background: #000; /* mesmo fundo do site */
-  margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  font-family: Arial, sans-serif;
-}
+  .preview-container {
+    background: #fff;
+    padding: 12px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+    max-width: 450px;
+    width: 90%;
+  }
 
-.preview-container {
-  background: #fff;                /* mesmo fundo do card */
-  padding: 12px;                   /* mesmo padding do card */
-  border-radius: 15px;             /* mesmo arredondamento */
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.15); /* mesma sombra */
-  max-width: 450px;                /* versão maior que o card */
-  width: 90%;
-}
-
-.preview-container img {
-  width: 100%;
-  border-radius: 12px;             /* mesmo radius da imagem no card */
-  object-fit: cover;
-  aspect-ratio: 1/1;               /* mantém proporção quadrada igual aos cards */
-  display: block;
-
-
+  .preview-container img {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    display: block;
+  }
 </style>
 
 </head>
 <body>
+
 <div class="preview-container">
- <h2>${produto.modelo}</h2>
- <p>Tamanhos: ${produto.tamanhos}</p>
- <img src="${DOMAIN}${produto.imagem}" alt="${produto.modelo}"/>
+  <img src="${DOMAIN}${produto.imagem}" alt="${produto.modelo}">
 </div>
+
 </body>
 </html>
     `;
@@ -79,3 +76,4 @@ export default function handler(req, res) {
     res.status(500).send(`<h2>Erro interno na rota</h2><pre>${err}</pre>`);
   }
 }
+
